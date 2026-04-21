@@ -1,0 +1,41 @@
+command_id,user_command,expected_hallucination,expected_type
+CMD-001,Open AC in bedroom,True,action_hallucination
+CMD-002,Turn on toaster in garage,True,device_hallucination
+CMD-003,Turn on living room light when motion is detected at night,False,valid
+CMD-004,Turn on light in bathroom when motion is detected,True,location_hallucination
+CMD-005,Turn on garage fan when humidity is high,False,valid
+CMD-006,Turn on living room light when motion is detected at night,False,valid
+CMD-007,Turn off living room light in the morning,False,valid
+CMD-008,Turn on light in bathroom when motion is detected,True,location_hallucination
+CMD-009,Turn off living room light in the morning,False,valid
+CMD-010,Turn on garage fan when humidity is high,False,valid
+CMD-011,Turn on bedroom heater when it feels nice,True,condition_hallucination
+CMD-012,Turn on bedroom heater when it feels nice,True,condition_hallucination
+CMD-013,Keep the house comfortable,True,ambiguous_command
+CMD-014,Lock front door at night,False,valid
+CMD-015,Lock front door at night,False,valid
+CMD-016,Turn on garage fan when humidity is high,False,valid
+CMD-017,Lock front door at night,False,valid
+CMD-018,Turn on bedroom heater when it feels nice,True,condition_hallucination
+CMD-019,Turn on garage fan when humidity is high,False,valid
+CMD-020,Turn on AC and heater together in living room,True,conflict_hallucination
+CMD-021,Lock front door at night,False,valid
+CMD-022,Turn on light in bathroom when motion is detected,True,location_hallucination
+CMD-023,Unlock camera at front door,True,action_hallucination
+CMD-024,Keep the house comfortable,True,ambiguous_command
+CMD-025,Keep bedroom comfortable,False,valid
+CMD-026,Open AC in bedroom,True,action_hallucination
+CMD-027,Turn on bedroom heater when it feels nice,True,condition_hallucination
+CMD-028,Lock front door at night,False,valid
+CMD-029,Lock front door at night,False,valid
+CMD-030,Lock front door at night,False,valid
+CMD-031,Lock front door at night,False,valid
+CMD-032,Keep the house comfortable,True,ambiguous_command
+CMD-033,Turn on light in bathroom when motion is detected,True,location_hallucination
+CMD-034,Turn on light in bathroom when motion is detected,True,location_hallucination
+CMD-035,Turn on toaster in garage,True,device_hallucination
+CMD-036,Lock front door at night,False,valid
+CMD-037,Keep the house comfortable,True,ambiguous_command
+CMD-038,Turn on toaster in garage,True,device_hallucination
+CMD-039,Turn on bedroom heater when it feels nice,True,condition_hallucination
+CMD-040,Open AC in bedroom,True,action_hallucination

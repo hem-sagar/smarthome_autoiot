@@ -1,0 +1,7 @@
+{
+  "total_commands": 45,
+  "valid_rules": 24,
+  "hallucinations": 21,
+  "uncertain": 21,
+  "mode": "zero_shot"
+}
